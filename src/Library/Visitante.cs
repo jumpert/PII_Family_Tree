@@ -12,6 +12,7 @@ namespace Library
             // Suma la edad del propio nodo
             ContentAge += node.Person.Edad;
             // Recorre la lista de nodos hijos y nietos para sumar la edad de los mismos
+
             foreach (Node _nodo in node.Childrens)
             {
                 foreach (Node nodo in _nodo.Childrens)

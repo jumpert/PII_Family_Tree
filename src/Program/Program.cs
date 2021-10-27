@@ -42,8 +42,6 @@ namespace Program
             Visitor visitorNombre = new VisitanteByNombre();
             Console.WriteLine("Visitante por Nombre: ");
             n1.Accept(visitorNombre);
-            Console.WriteLine(n4.Person.Nombre.Length);
-
         }
     }
 }
